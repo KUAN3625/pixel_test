@@ -1,0 +1,37 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.preload {
+  background-image: url("images/Sprite-0002.png");
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+.sprite {
+
+  width: 128px;
+  height: 128px;
+  background-image: url("images/Sprite-0001.png");
+  background-size: 1280px 128px;
+  animation: puddingMove 1.2s steps(10) infinite;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+
+}
+
+.sprite:hover {
+  background-image: url("images/Sprite-0002.png"); /* 滑入表情動畫 */
+}
+
+@keyframes puddingMove {
+  from { background-position: 0 0; }
+  to   { background-position: -1280px 0; }
+}
