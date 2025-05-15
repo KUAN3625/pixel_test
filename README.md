@@ -15,5 +15,5 @@
 
 
 #備忘錄
-https://你的帳號.github.io/你的repo名稱/
-https://github.com/KUAN3625/pixel_test/tree/main/image_test/
+#https://你的帳號.github.io/你的repo名稱/
+#https://github.com/KUAN3625/pixel_test/tree/main/image_test/
