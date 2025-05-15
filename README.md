@@ -1,5 +1,4 @@
 # pixel_test
-# pixel_test
 
 用於存放專題互動性測試的小物件專案倉庫
 
