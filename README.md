@@ -6,7 +6,7 @@
 
 - [圖像互動測試（預覽）](https://kuan3625.github.io/pixel_test/image_test/)　#2025/5/15
 
----
+- [行走操控測試(預覽)](https://kuan3625.github.io/pixel_test/walking_test/) #2025/5/18
 
 ## 備忘錄
 
