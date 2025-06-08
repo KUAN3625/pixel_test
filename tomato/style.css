@@ -194,3 +194,9 @@ padding: 0.4rem 1rem;
     font-size: 2rem;
   }
 }
+
+@media (max-width: 360px) {
+  .timer-wrapper .right-ball {
+    margin-bottom: 1rem;
+  }
+}
