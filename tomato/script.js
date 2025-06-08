@@ -27,8 +27,20 @@ timerDisplay.textContent = formatTime(timeLeft);
 
 //📌以下點擊開始計時
 document.querySelector(".timer-ring").addEventListener("click", () => {
+    const rabbit = document.querySelector(".rabbit-sprite");
 
-    if (countdownInterval !== null) return;
+    if (countdownInterval !== null) {
+        //暫停中
+        clearInterval(countdownInterval);
+        countdownInterval = null;
+        rabbit.classList.remove("rabbit-run");
+        return;
+    }
+
+
+
+    //開始倒數
+    rabbit.classList.add("rabbit-run")
 
     countdownInterval = setInterval(() => {
         timeLeft--;//📌每秒減1
