@@ -7,7 +7,6 @@
 body {
     background: transparent;/*背景透明*/
     margin: 0;
-    background: #000000;
     display: flex;
     /*對齊*/
     align-items: center;
