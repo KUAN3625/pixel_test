@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>測試類小工具</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="img/Rabbit-run.png" as="image"><!--預加載入-->
+  </head>
+
+  <!--container=容器核心-->
+  <body>
+    <div class="container">
+
+      <div class="timer-wrapper"><!-- 15 圓環 30 5-->
+
+        
+<div class="switch-ball left-ball" data-minutes="15"></div>
+
+<div class="timer-ring">
+        <div id="timer" class="timer">25:00</div>
+      </div>
+
+<div class="switch-ball right-ball" data-minutes="30"></div>
+      </div>
+
+  <!-- 重製-->
+      <div class="controls">
+        <button id="reset">重製</button>
+      </div>
+
+<div class="bottom-deco">
+
+<div class="rabbit-sprite"></div>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
