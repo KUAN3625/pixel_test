@@ -14,11 +14,16 @@ body {
     justify-content: center;
     /*垂直*/
     height: 100vh;
+      min-height: 100vh;  /*不會卡死*/
 }
 
 
 /*主容器*/
 .container {
+    width:100%;
+    max-width:320px;
+        margin: 0 auto;
+    /*以上為追加*/
     background: white;
     padding: 2rem;
     border-radius: 1rem;
