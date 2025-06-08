@@ -7,7 +7,7 @@
 body {
     background: transparent;/*背景透明*/
     margin: 0;
-    background: #f5f5f5;
+    background: #000000;
     display: flex;
     /*對齊*/
     align-items: center;
@@ -74,8 +74,8 @@ width: 60dvw;
 
 /*30*/
 .switch-ball {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     /*圓化*/
     background-color: #ccc;
